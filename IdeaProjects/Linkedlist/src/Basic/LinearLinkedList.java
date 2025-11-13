@@ -1,3 +1,5 @@
+package Basic;
+
 public class LinearLinkedList {
     Node root;
 
@@ -153,9 +155,9 @@ public class LinearLinkedList {
             System.out.println("Empty list");
         else
         {
-            for(Node i=root;i.next!=null;i=i.next)//for passes
+            for(Node i = root; i.next!=null; i=i.next)//for passes
             {
-                for(Node t=root,t2=t.next;t2!=null;t=t.next,t2=t2.next)//sorts
+                for(Node t = root, t2 = t.next; t2!=null; t=t.next,t2=t2.next)//sorts
                 {
                     if(t.data>t2.data)
                     {
