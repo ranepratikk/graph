@@ -16,6 +16,7 @@ public class CRUD_Node {
 
     }
     void print(){
-        System.out.println("NAME:"+ename+"id:"+eid+"salary:"+salary+"gender:"+gender);
+        System.out.println(ename+"  "+eid+" "+salary+
+                " "+gender);
     }
 }

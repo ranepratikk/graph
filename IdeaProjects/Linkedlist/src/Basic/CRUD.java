@@ -48,7 +48,7 @@ public class CRUD
 
 
 
-        // UPDATE
+
         System.out.println("Enter id to update:");
         int hid = in.nextInt();
         boolean updated = false;
